@@ -1,1 +1,1 @@
-# simple_stop_watch
+# simple_stop_watch project
