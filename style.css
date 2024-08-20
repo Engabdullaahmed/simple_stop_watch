@@ -1,0 +1,42 @@
+body {
+    /* we make that to cover photo to all content */
+    background: url(pexels-photo-9735310.jpeg) no-repeat center center/cover; 
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    height: 200px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 30px;
+}
+
+#timer {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#startstopBtn img {
+    background-image: url(play-button.png);
+    height: 20px;
+}
+
+
+#resetBtn img {
+    height: 20px;
+    background-image: url(last.png);
+}
